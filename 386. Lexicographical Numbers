@@ -13,8 +13,7 @@ class Solution {
             return;
         }
         list.add(curr);
-        int i = 0;
-        for(;i<=9;i++){
+        for(int i=0;i<=9;i++){
             fun(n,curr*10+i,list);
         }
     }
